@@ -1,86 +1,103 @@
 <!DOCTYPE html>
 <html lang="th">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>เกี่ยวกับฉัน</title>
-    <link rel="stylesheet" href="style.css">
+
+    <title>ประวัติส่วนตัว</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/6f6f4f2a8d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
+    <!-- Navbar -->
+
     <nav>
-        <a href="index.html">หน้าแรก</a>
-        <a href="about.html">เกี่ยวกับฉัน</a>
-        <a href="portfolio.html">ผลงาน</a>
-        <a href="gallery.html">แกลเลอรี</a>
-        <a href="contact.html">ติดต่อ</a>
-    </nav>
 
-    <div class="container">
-
-        <h1>เกี่ยวกับฉัน</h1>
-
-        <img src="images/profile.jpg"
-             alt="รูปโปรไฟล์"
-             width="200">
-
-        <h2>ข้อมูลส่วนตัว</h2>
-
-        <table border="1" cellpadding="10">
-            <tr>
-                <td><strong>ชื่อ</strong></td>
-                <td>ใส่ชื่อของคุณ</td>
-            </tr>
-
-            <tr>
-                <td><strong>ชั้น</strong></td>
-                <td>มัธยมศึกษาปีที่ 6</td>
-            </tr>
-
-            <tr>
-                <td><strong>โรงเรียน</strong></td>
-                <td>ใส่ชื่อโรงเรียน</td>
-            </tr>
-
-            <tr>
-                <td><strong>แผนการเรียน</strong></td>
-                <td>วิทย์-คณิต / ศิลป์-คำนวณ</td>
-            </tr>
-        </table>
-
-        <h2>ความสามารถ</h2>
+        <div class="logo">
+            MyPortfolio
+        </div>
 
         <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Microsoft Word</li>
-            <li>Microsoft PowerPoint</li>
-            <li>GitHub Pages</li>
+            <li><a href="index.html">หน้าหลัก</a></li>
+            <li><a href="about.html">ประวัติส่วนตัว</a></li>
+            <li><a href="portfolio.html">ผลงาน</a></li>
+            <li><a href="gallery.html">แกลเลอรี</a></li>
+            <li><a href="contact.html">ติดต่อ</a></li>
         </ul>
 
-        <h2>งานอดิเรก</h2>
+    </nav>
 
-        <ol>
-            <li>เขียนโปรแกรม</li>
-            <li>เล่นเกม</li>
-            <li>ฟังเพลง</li>
-            <li>ดูภาพยนตร์</li>
-            <li>อ่านหนังสือ</li>
-        </ol>
+    <!-- About -->
 
-        <h2>เป้าหมายในอนาคต</h2>
+    <section class="hero">
 
-        <p>
-            ฉันสนใจด้านการพัฒนาเว็บไซต์และเทคโนโลยี
-            มีเป้าหมายที่จะศึกษาต่อในสาขาวิทยาการคอมพิวเตอร์
-            และพัฒนาทักษะการเขียนโปรแกรมเพื่อสร้างเว็บไซต์
-            และแอปพลิเคชันที่มีคุณภาพในอนาคต
-        </p>
+        <div class="hero-text">
 
-    </div>
+            <h3>About Me</h3>
 
-    <script src="script.js"></script>
+            <h1>ประวัติส่วนตัว</h1>
+
+            <p><strong>ชื่อ :</strong> อิทธิพล แสงเดือน</p>
+
+            <p><strong>กำลังศึกษา :</strong> ชั้นมัธยมศึกษาปีที่ 6</p>
+
+            <p><strong>โรงเรียน :</strong> ใส่ชื่อโรงเรียนของคุณ</p>
+
+            <p><strong>แผนการเรียน :</strong> ใส่แผนการเรียน</p>
+
+            <p><strong>ความสามารถ :</strong> HTML, CSS, JavaScript, GitHub Pages และ Microsoft Office</p>
+
+            <p><strong>งานอดิเรก :</strong> เขียนโปรแกรม ฟังเพลง เล่นเกม และเรียนรู้เทคโนโลยีใหม่ ๆ</p>
+
+            <p>
+                ผมมีความสนใจด้านการพัฒนาเว็บไซต์
+                และต้องการพัฒนาทักษะการเขียนโปรแกรม
+                เพื่อศึกษาต่อและประกอบอาชีพด้านเทคโนโลยีในอนาคต
+            </p>
+
+            <div class="buttons">
+
+                <a href="portfolio.html" class="btn">
+                    ดูผลงาน
+                </a>
+
+                <a href="contact.html" class="btn-outline">
+                    ติดต่อฉัน
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/profile.jpg" alt="Profile">
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        © 2026 อิทธิพล แสงเดือน
+
+    </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
